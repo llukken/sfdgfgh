@@ -1,0 +1,238 @@
+html, body {margin: 0%; }
+
+#menu_principal{background-color: purple;
+height: 70px;
+z-index: 10;
+position: fixed;
+width: 100%;
+}
+
+#menu_artigos{background-color: purple;
+height: 70px;
+width: 100%;}
+
+#logo{
+height: 100%;
+float: left;
+position: absolute;
+left: 2%;
+}
+
+#menu{
+float: right;
+position: relative;
+top: 2%;
+right: 2%;
+list-style: none;
+margin-top: 0;
+margin-bottom: 0;
+}
+
+li{
+float: left;
+padding-left: 1%;
+padding-right: 1%;
+padding: 15% 10 15% 10;
+
+}
+
+li:hover{
+background-color:#6959CD;
+border-bottom: 3px black solid;
+}
+
+a.link_menu{
+text-decoration: none;
+color: black;
+font-family: fantasy;
+font-size: 120%;
+}
+
+#insta_icon{
+height: 8%;
+border: 2px purple solid;
+border-radius: 10px;
+background-color:purple;
+position: fixed;
+top: 90%;
+left: 0.5%;
+}
+
+#facebook_icon{
+height: 8%;
+border: 2px purple solid;
+border-radius: 10px;
+background-color:purple;
+position: fixed;
+top: 80%;
+left: 0.5%;
+}
+
+#redes_sociais{width: 5%; position: fixed}
+
+#inicio{background-image: url(IMG/tela_inicial_mobile.png);
+background-size: 100%;
+height: 100%;
+width: 100%;
+background-repeat: no-repeat;
+background-color: #30336b;
+background-position: 0%;
+}
+
+.titulos{
+margin: 0%;
+font-family: fantasy;
+text-align: center;
+padding: 1%;
+margin-left: 25%;
+margin-right: 25%;
+margin-bottom: 1%;
+font-size: 300%;
+position: relative;
+top: 10px;
+}
+
+.texto{
+margin-left: 5%;
+margin-right: 5%;
+margin-top: 0%;
+margin-bottom: 0%;
+text-align: justify;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 160%;
+padding: 2%;
+}
+
+.padding{padding-bottom: 10%;} 
+
+#sobre{
+margin: 0%;
+background-color: #30336b;
+height: 70%;}
+
+#relatos{background-color: #686de0;}
+
+#artigos{background-color: #9980FA;}
+
+#body_artigos{background-color: #9980FA; margin: 0%;}
+
+
+.titulos_artigos{
+font-family: fantasy;
+text-align: center;
+margin: 0%;
+margin-top: 1%;
+font-size: 150%;
+}
+
+.modelo_artigos{
+border: 5px #5758BB solid;
+margin-left: 10%;
+margin-right: 10%;
+background-color:  #5758BB ;
+}
+
+.texto_artigos{
+margin-top: 0%;
+margin-bottom: 0%;
+text-align: justify;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 130%;
+padding: 1%;}
+
+.botao_artigo{
+font-size: 130%;
+text-align: center;
+}
+
+#seta_icon{
+width: 5%;
+height: 100%;
+}
+
+.titulos_relatos{
+font-family: fantasy;
+text-align: center;
+margin: 0%;
+margin-top: 1%;
+font-size: 150%;
+}
+
+.autor{
+font-family: fantasy;
+text-align: center;
+font-size: 130%;
+margin: 0%;
+}
+
+
+a.link_relato{
+text-decoration: underline;
+color: black;
+}
+
+#container_maior1{
+display: flex;
+flex-direction: row-reverse;
+}
+
+#pubi_leni{
+margin-left: 5%;
+margin-top: 20%;
+}
+
+.texto_relato{
+margin-left: 5%;
+margin-right: 5%;
+margin-top: 0%;
+margin-bottom: 0%;
+text-align: justify;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 130%;
+padding: 1%;
+}
+
+.relatos_div{
+border: 3px #5758BB;
+margin: 3%;
+border-radius: 5%;
+background-color:#5758BB;
+}
+
+.relatos_div2{
+border: 2px #5758BB;
+margin: 3%;
+margin-left: 1%;
+margin-right: 1%;
+border-radius: 5%;
+background-color:#5758BB;
+}
+
+#container_maior2{
+display: flex;
+}
+
+#pubi_david{
+margin-top: 10%;
+margin-left: 0%;
+margin-right: 0%;
+}
+
+
+@media all and (max-width: 1024px){
+#inicio{height: 40%;  width: 100%; background-repeat: no-repeat; background-position: 0%; background-size: 100%;}
+#menu_principal{height: 70px;}
+#sobre{height: auto;}
+#pubi_Leni{margin-top: 2%; width: 100%; margin-left: 0%; margin-bottom: 5%;}
+#pubi_david{margin-top: 2%; width: 100%; margin-left: 0%; margin-bottom: 5%;}
+#container_maior1{display: block;}
+#container_maior2{display: block;}
+#seta_icon{width: 50px;}
+}
+
+
+
+
+
+
+
